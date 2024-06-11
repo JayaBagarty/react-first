@@ -9,16 +9,13 @@ function App() {
       setCount(20);
     } else {
       setCount(count + 1);
-      console.log("Add",count);
     }
   };
   const removeValu = () => {
     if (count <= 0) {
       setCount(0);
-      console.log("less then 0", count);
     } else {
       setCount(count - 1);
-      console.log("remove", count);
     }
   };
 
